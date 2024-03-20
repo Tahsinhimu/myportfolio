@@ -611,19 +611,23 @@ a {
   display: flex;
 }
 
-.bgbody .container .rowImg {
-  width: 50%;
-  height: auto;
-  text-align: left;
-}
 .bgbody .container .textRow {
   width: 50%;
   height: auto;
   text-align: left;
 }
+.bgbody .container .rowImg {
+  width: 50%;
+  height: auto;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .bgbody .container .rowImg img {
   width: auto;
-  height: 100%;
+  height: 90%;
+  border-radius: 20px;
 }
 
 .bgbody .container .textRow {
